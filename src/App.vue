@@ -1,11 +1,11 @@
 <script setup>
-import Repository from './views/Repository.vue'
+import Repository from '@/views/Repository.vue'
+import MyLoader from '@/components/MyLoader.vue'
 </script>
 
 <template>
-  <div>
-    <Repository />
-  </div>
+  <MyLoader />
+  <Repository />
 </template>
 
 <style scoped></style>
